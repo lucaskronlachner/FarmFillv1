@@ -1,5 +1,10 @@
 
+
 _filename = "./data/values.csv"
+
+
+_vegetables_info = []
+
 
 def readcsv():
     f = open(f"{_filename}", "r")
