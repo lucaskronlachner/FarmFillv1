@@ -1,8 +1,6 @@
 
-_filename = "./data/values.csv"
-
 def readcsv():
-    f = open(f"{_filename}", "r")
+    f = open(f"./data/Gemuese.csv", "r")
     for item in f.readlines():
         print(item)
 
