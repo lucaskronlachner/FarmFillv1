@@ -6,7 +6,7 @@ Buschbohne;Mitteltiefwurzler;Schwachzehrer;Blumenkohl,Rote Ruebe,Kuerbis,Gurke,R
 Paprika;Mitteltiefwurzler;Mittelzehrer;Blumenkohl,Buschbohne,Radieschen,Rote Ruebe,Spinat;Gurke
 Karotte;Mitteltiefwurzler;Mittelzehrer;Radieschen,Zwiebel
 Gurke;Mitteltiefwurzler;Starkzehrer;Buschbohne,Blumenkohl,Mais,Rote Ruebe;Radieschen
-Mais;Flachwurzler;Starkzehrer;Gurke
-Zwiebel;Flachwurzler;Mittelzehrer;Gurke,Karotte,Rote Ruebe;Buschbohne,Blumenkohl
-Spinat;Flachwurzler;Mittelzehrer;Blumenkohl,Paprika,Radieschen
-Radieschen;Flachwurzler;Schwachzehrer;Buschbohne,Karotte,Blumenkohl,Paprika,Spinat;Gurke,Zwiebel
+Mais;Flachwurzler;Starkzehrer;Gurke;Zwiebel,Spinat,Radieschen
+Zwiebel;Flachwurzler;Mittelzehrer;Gurke,Karotte,Rote Ruebe;Buschbohne,Blumenkohl,Mais,Spinat,Radieschen
+Spinat;Flachwurzler;Mittelzehrer;Blumenkohl,Paprika,Radieschen;Mais,Zwiebel,Radieschen
+Radieschen;Flachwurzler;Schwachzehrer;Buschbohne,Karotte,Blumenkohl,Paprika,Spinat;Gurke,Zwiebel,Spinat,Mais
