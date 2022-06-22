@@ -1,12 +1,12 @@
-Gemuese;Wurzelart;Fruchtfolge;Gut Nachbar;Bad Nachbar
-Kuerbis;Tiefwurzler;Starkzehrer;Buschbohne
-Rote Ruebe;Tiefwurzler;Mittelzehrer;Buschbohne,Gurke,Zwiebel
-Blumenkohl;Tiefwurzler;Starkzehrer;Buschbohne,Spinat,Gurke,Paprika,Radieschen;Zwiebel
-Buschbohne;Mitteltiefwurzler;Schwachzehrer;Blumenkohl,Rote Ruebe,Kuerbis,Gurke,Radieschen,Paprika,Spinat;Zwiebel
-Paprika;Mitteltiefwurzler;Mittelzehrer;Blumenkohl,Buschbohne,Radieschen,Rote Ruebe,Spinat;Gurke
-Karotte;Mitteltiefwurzler;Mittelzehrer;Radieschen,Zwiebel
-Gurke;Mitteltiefwurzler;Starkzehrer;Buschbohne,Blumenkohl,Mais,Rote Ruebe;Radieschen
-Mais;Flachwurzler;Starkzehrer;Gurke;Zwiebel,Spinat,Radieschen
-Zwiebel;Flachwurzler;Mittelzehrer;Gurke,Karotte,Rote Ruebe;Buschbohne,Blumenkohl,Mais,Spinat,Radieschen
-Spinat;Flachwurzler;Mittelzehrer;Blumenkohl,Paprika,Radieschen;Mais,Zwiebel,Radieschen
-Radieschen;Flachwurzler;Schwachzehrer;Buschbohne,Karotte,Blumenkohl,Paprika,Spinat;Gurke,Zwiebel,Spinat,Mais
+Gemuese;Fruchtfolge;Gut Nachbar;Bad Nachbar
+Kuerbis;Starkzehrer;5;
+Rote Ruebe;Mittelzehrer;5,7,9;
+Blumenkohl;Starkzehrer;5,10,7,5,11;9
+Buschbohne;Schwachzehrer;3,2,1,7,11,5,10;9
+Paprika;Mittelzehrer;3,5,11,2,10;7
+Karotte;Mittelzehrer;11,9;
+Gurke;Starkzehrer;5,3,8,2;11
+Mais;Starkzehrer;7;9,10,11
+Zwiebel;Mittelzehrer;7,6,2;5,3,8,10,11
+Spinat;Mittelzehrer;3,5,11;8,9,11
+11;Schwachzehrer;5,6,3,5,10;7,9,10,8
