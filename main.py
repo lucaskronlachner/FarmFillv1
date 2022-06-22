@@ -1,4 +1,4 @@
-
+from _vegInfo import _vegInfo
 
 _filename = "./data/values.csv"
 
