@@ -30,6 +30,22 @@ def createField():
                 counter += 1
     return _field
 
+def fieldTry(field, veg,_rowInd, _colInd, outfield):
+    print("Hello")
+
+
+def perfection():
+    _tryfld = []
+    _currentfld = createField()
+    for row in _currentfld:
+        for item in row:
+            if item == -1:
+                continue
+            else:
+                fieldTry(_currentfld, _currentfld.index(row), _currentfld[_currentfld.index(row)].index(item), _tryfld)
+
+
+
 
 readcsv()
-print(_vegetables_info[8].gdNeighboridx)
+perfection()
