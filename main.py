@@ -1,6 +1,7 @@
 from _vegInfo import _vegInfo
 import random
 import numpy as np
+import copy
 
 _filename = "./data/values.csv"
 _years = 4
@@ -55,13 +56,15 @@ def perfection():
     print()
     b = True
     while (b):
-        _originalFld = _currentfld
+        _originalFld = copy.deepcopy(_currentfld)
         for row in range(len(_currentfld)):
             for col in range(len(_currentfld[0])):
                 if _currentfld[row][col] == -1:
                     continue
                 else:
                     _currentfld = optimizeNeighbors(_currentfld[row][col], _currentfld, row, col)
+        print(_originalFld)
+        print(_currentfld)
         if(_originalFld == _currentfld):
             b = False
     print('After optimization')
