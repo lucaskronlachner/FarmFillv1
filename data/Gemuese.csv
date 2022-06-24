@@ -1,12 +1,12 @@
 Gemuese;Fruchtfolge;Gut Nachbar;Bad Nachbar
-Kuerbis;Starkzehrer;5;
-Rote Ruebe;Mittelzehrer;5,7,9;
-Blumenkohl;Starkzehrer;5,10,7,5,11;9
+Kuerbis;Starkzehrer;5,4;
+Rote Ruebe;Mittelzehrer;5,7,9,4;
+Blumenkohl;Starkzehrer;5,10,7,11,5;9
 Buschbohne;Schwachzehrer;3,2,1,7,11,5,10;9
-Paprika;Mittelzehrer;3,5,11,2,10;7
+Paprika;Mittelzehrer;3,5,11,2,10,1;7,9
 Karotte;Mittelzehrer;11,9;
-Gurke;Starkzehrer;5,3,8,2;11
-Mais;Starkzehrer;7;9,10,11
-Zwiebel;Mittelzehrer;7,6,2;5,3,8,10,11
-Spinat;Mittelzehrer;3,5,11;8,9,11
-11;Schwachzehrer;5,6,3,5,10;7,9,10,8
+Gurke;Starkzehrer;3,8,2,4,9;11,5
+Mais;Starkzehrer;7;9,10,11,8
+Zwiebel;Mittelzehrer;7,6,2;5,3,8,10,11,9
+Spinat;Mittelzehrer;3,5,4;8,9,10,11
+Radieschen;Schwachzehrer;5,6,3,4;7,9,11,8,10
