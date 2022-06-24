@@ -69,6 +69,46 @@ def perfection():
             b = False
     print('After optimization')
     print(np.matrix(_currentfld))
+    return _currentfld
+
+def getAllZieher(type):
+    vegs = []
+    for item in _vegetables_info:
+        if type.__contains__(item.fruchtflg):
+            vegs.append(item)
+
+    return vegs
+
+def containsType(type,row, col, yearflds):
+    for item in yearflds:
+        veg = _vegetables_info[item[row][col] - 1]
+        if veg.fruchtflg == type:
+            return True
+    return False
+
+def timeGoesBy(_startfld):
+    _yearflds = []
+    for _ in range(0, _years):
+        _currfield = createField()
+        for row in range(len(_startfld)):
+            for col in range(len(_startfld[0])):
+                if _startfld[row][col] != -1:
+                    item = _vegetables_info[_startfld[row][col] - 1]
+                    if item.fruchtflg == 'Starkzehrer':
+                        _currfield[row][col]  = random.choice(getAllZieher('Mittelzehrer,Schwachzehrer'))
+                    elif item.fruchtflg == 'Mittelzehrer':
+                        if containsType('Starkzehrer',row, col, _yearflds):
+                            _currfield[row][col]  = random.choice(getAllZieher('Starkzehrer,Schwachzehrer'))
+                        else:
+                            _currfield[row][col]  = random.choice(getAllZieher('Schwachzehrer'))
+                    elif item.fruchtflg == 'Schwachzehrer':
+                        if containsType('Starkzehrer',row, col, _yearflds):
+                            _currfield[row][col] = random.choice(getAllZieher('Starkzehrer,Mittelzehrer'))
+                        else:
+                            _currfield[row][col]  = random.choice(getAllZieher('Mittelzehrer'))
+    return _yearflds
+
+
 
 def firstTry():
     _firstTryFld = createField()
