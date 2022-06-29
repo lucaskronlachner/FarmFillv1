@@ -86,6 +86,11 @@ def containsType(type,row, col, yearflds):
             return True
     return False
 
+def optimizeTime(_fld):
+    for row in range(len(_fld)):
+        for col in range(len(_fld[0])):
+            optimizeNeighbors(_fld[row][col], _fld, row, col)
+
 def timeGoesBy(_startfld):
     _yearflds = []
     for _ in range(0, _years):
